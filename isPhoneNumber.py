@@ -1,5 +1,7 @@
 ##program to check if an entry is a phone number
 
+import re
+
 def isPhone(text):
     if len(text) != 12:
         return False;
