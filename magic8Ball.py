@@ -29,7 +29,7 @@ def getNumber(number):
         return " Eight! You are smart!!";
 
     elif number == 9:
-        return "You're a python expert! At cloud nine!";
+        return "You're a python expert!!";
 
 num = random.randint(1,9);
 lucky = getNumber(num);
